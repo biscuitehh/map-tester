@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MTMapboxGLViewController.h
 //  Map Tester
 //
 //  Created by Michael Thomas on 5/17/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MTMapboxGLViewController : UIViewController
 
 @end
-

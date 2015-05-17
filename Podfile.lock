@@ -1,0 +1,68 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Google-Maps-iOS-SDK (1.9.2)
+  - MapboxGL (0.3.1)
+  - MBXMapKit (0.7.0)
+  - WTAHelpers (0.1.1):
+    - WTAHelpers/WTAAutoLayoutHelpers (= 0.1.1)
+    - WTAHelpers/WTAColorHelpers (= 0.1.1)
+    - WTAHelpers/WTAColorImage (= 0.1.1)
+    - WTAHelpers/WTADeviceHelpers (= 0.1.1)
+    - WTAHelpers/WTAFrameHelpers (= 0.1.1)
+    - WTAHelpers/WTANibLoading (= 0.1.1)
+    - WTAHelpers/WTAReusableIdentifier (= 0.1.1)
+  - WTAHelpers/WTAAutoLayoutHelpers (0.1.1)
+  - WTAHelpers/WTAColorHelpers (0.1.1)
+  - WTAHelpers/WTAColorImage (0.1.1)
+  - WTAHelpers/WTADeviceHelpers (0.1.1)
+  - WTAHelpers/WTAFrameHelpers (0.1.1)
+  - WTAHelpers/WTANibLoading (0.1.1)
+  - WTAHelpers/WTAReusableIdentifier (0.1.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.5)
+  - Google-Maps-iOS-SDK (~> 1.9)
+  - MapboxGL (from `https://raw.githubusercontent.com/mapbox/mapbox-gl-native/master/ios/MapboxGL.podspec`)
+  - MBXMapKit (~> 0.7)
+  - WTAHelpers (from `https://github.com/willowtreeapps/WTAHelpers.git`, tag `0.1.1`)
+
+EXTERNAL SOURCES:
+  MapboxGL:
+    :podspec: https://raw.githubusercontent.com/mapbox/mapbox-gl-native/master/ios/MapboxGL.podspec
+  WTAHelpers:
+    :git: https://github.com/willowtreeapps/WTAHelpers.git
+    :tag: 0.1.1
+
+CHECKOUT OPTIONS:
+  WTAHelpers:
+    :git: https://github.com/willowtreeapps/WTAHelpers.git
+    :tag: 0.1.1
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  Google-Maps-iOS-SDK: 4c008abdb68e03ae125c7f674be841d369e2b3de
+  MapboxGL: c3de58589d99c678da9e2a8315c8b1e7054ddfa1
+  MBXMapKit: 1fd570fd955fb4475b7303360b3b96afb1ff9634
+  WTAHelpers: 293d44201fe3fac419d3f096e927faed3f74f432
+
+COCOAPODS: 0.37.1
